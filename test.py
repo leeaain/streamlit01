@@ -57,7 +57,7 @@ data = pd.DataFrame({
 })
 
 # 그래프 생성
-chart = alt.Chart(data).mark_line().encode(
+chart = st.Chart(data).mark_line().encode(
     x='x',
     y='y'
 ).properties(
